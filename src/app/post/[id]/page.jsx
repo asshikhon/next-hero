@@ -1,4 +1,3 @@
-import { redirect } from "next/navigation";
 import React from "react";
 
 const getDetails = async (id) => {
@@ -10,7 +9,6 @@ const getDetails = async (id) => {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-
     return data;
   } catch (error) {
     console.error("Error:", error);
