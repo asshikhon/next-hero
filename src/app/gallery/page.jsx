@@ -7,7 +7,9 @@ const page = () => {
             <h6 className='text-3xl mb-12 text-center'>
 Gallery page
             </h6>
+            <div>
             <Image src="/images/1.jpg.jpeg" alt="" height="1080" width="1920" />
+            </div>
         </div>
     );
 };
