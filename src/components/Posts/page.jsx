@@ -1,4 +1,4 @@
-// import { getPosts } from "@/services/getPosts";
+
 import { getPosts } from "@/services/getPosts";
 import Link from "next/link";
 
@@ -32,3 +32,7 @@ postsData?.slice(0, 10).map((post) => (
 };
 
 export default Posts;
+
+
+
+

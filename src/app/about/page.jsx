@@ -24,7 +24,7 @@ const getTime = async () => {
 };
 
 const Page = async () => {
-  const currentTime = await getTime();
+//   const currentTime = await getTime();
 
   return (
     <>
@@ -35,7 +35,7 @@ const Page = async () => {
             </Head> */}
       <div className={`${playwright.className} min-h-screen px-12 py-24`}>
         <h4 className="text-5xl text-center text-red-400">About Page</h4>
-        <h4 className="text-4xl"> Time : {currentTime} </h4>
+        <h4 className="text-4xl"> Time :  </h4>
       </div>
     </>
   );
