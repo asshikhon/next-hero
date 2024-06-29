@@ -1,4 +1,6 @@
+import { getServerSession } from "next-auth";
 import { Open_Sans } from "next/font/google";
+import { authOptions } from "../api/auth/[...nextauth]/route";
 
 const playwright = Open_Sans({
   subsets: ["latin"],
@@ -25,7 +27,9 @@ const getTime = async () => {
 
 const Page = async () => {
 //   const currentTime = await getTime();
-
+// const session = await getSession();
+const session = await getServerSession(authOptions);
+console.log({session});
   return (
     <>
       {/* <Head>

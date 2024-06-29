@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
+    "mongodb": "^6.8.0",
     "next": "latest",
+    "next-auth": "^4.24.7",
     "postcss": "^8.4.38",
     "react": "latest",
     "react-dom": "latest",
